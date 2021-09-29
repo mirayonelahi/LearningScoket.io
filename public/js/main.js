@@ -101,7 +101,7 @@ function createPoll(message){
   const div = document.createElement('div')
   div.classList.add('createPoll')
   div.innerHTML=`<form action="/">
-  <p>Poll Created By:  ${message.username}?</p>
+  <p>Poll Created By:  ${message.username}</p>
   <p>${message.text}?</p>
   <input type="radio" id="yes" name="fav_language" value="Agreed">
   <label for="yes">Agreed</label><br>
